@@ -1,4 +1,5 @@
-using Landee.Api.Setup;
+using Landee.Api.DependencyInjection;
+using Landee.Api.Web;
 
 WebApplication
     .CreateBuilder(args)

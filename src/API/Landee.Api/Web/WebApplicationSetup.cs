@@ -1,4 +1,4 @@
-﻿namespace Landee.Api.Setup;
+﻿namespace Landee.Api.Web;
 
 public static class WebApplicationSetup
 {

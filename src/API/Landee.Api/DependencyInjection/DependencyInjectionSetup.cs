@@ -1,4 +1,4 @@
-﻿namespace Landee.Api.Setup;
+﻿namespace Landee.Api.DependencyInjection;
 
 public static class DependencyInjectionSetup
 {
@@ -6,6 +6,7 @@ public static class DependencyInjectionSetup
     {
         webApplicationBuilder
             .Services
+            .AddConfiguration()
             .AddControllers()
             .Services
             .AddEndpointsApiExplorer()
