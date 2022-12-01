@@ -4,6 +4,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Landee.Api", "API\Landee.Ap
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{0C878B8E-A8C6-4363-AA7C-8D5B56142451}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{FC2C3B31-4C39-48FE-B87D-21385AA424E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{2562DE55-2A85-40CB-B662-32DE98159DE9}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +25,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3B0DEDE5-CFE9-4410-B06F-E92023DCC499} = {0C878B8E-A8C6-4363-AA7C-8D5B56142451}
+		{2562DE55-2A85-40CB-B662-32DE98159DE9} = {FC2C3B31-4C39-48FE-B87D-21385AA424E7}
 	EndGlobalSection
 EndGlobal

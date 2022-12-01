@@ -6,9 +6,7 @@ public static class WebApplicationSetup
     {
         webApplication
             .ConfigureSwagger()
-            .UseHttpsRedirection();
-
-        webApplication.MapControllers();
+            .MapControllers();
 
         return webApplication;
     }
