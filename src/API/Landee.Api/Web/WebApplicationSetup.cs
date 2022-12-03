@@ -13,7 +13,9 @@ public static class WebApplicationSetup
 
     private static WebApplication ConfigureSwagger(this WebApplication webApplication)
     {
-        if (webApplication.Environment.IsDevelopment())
+        var isSwaggerPageGenerationRequired =  webApplication.Environment.IsDevelopment();
+
+        if (isSwaggerPageGenerationRequired)
         {
             webApplication
                 .UseSwagger()
